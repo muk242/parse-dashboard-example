@@ -13,6 +13,13 @@ var dashboard = new ParseDashboard({
       appName: process.env.APP_NAME || 'MyApp',
     },
   ],
+  
+  "users": [
+    {
+      "user":"muk242",
+      "pass":"sporn1957"
+    }
+  ]
 });
 
 var app = express();

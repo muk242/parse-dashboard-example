@@ -16,8 +16,8 @@ var dashboard = new ParseDashboard({
   
   "users": [
     {
-      "user":"muk242",
-      "pass":"sporn1957"
+      "user":"uuu",
+      "pass":"ppp"
     }
   ]
 });

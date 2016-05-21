@@ -7,10 +7,10 @@ var path = require('path');
 var dashboard = new ParseDashboard({
   apps: [
     {
-      appId: process.env.APP_ID || 'myAppId',
-      masterKey: process.env.MASTER_KEY || 'myMasterKey',
-      serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',
-      appName: process.env.APP_NAME || 'MyApp',
+      appId: process.env.APP_ID || 'gT3EHojAVlvtjgiZM1854EKMvFFftvL14KhrbzCe',
+      masterKey: process.env.MASTER_KEY || 'QiRYWtWkX6RJjELTb1Uyv5o0Yd78IUwsC39iaCbn',
+      serverURL: process.env.SERVER_URL || 'https://mm-parse-test.herokuapp.com/parse',
+      appName: process.env.APP_NAME || 'Dev_Heroku',
     },
   ],
   

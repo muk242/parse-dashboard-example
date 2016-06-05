@@ -7,17 +7,17 @@ var path = require('path');
 var dashboard = new ParseDashboard({
   apps: [
     {
-      appId: process.env.APP_ID || 'gT3EHojAVlvtjgiZM1854EKMvFFftvL14KhrbzCe',
-      masterKey: process.env.MASTER_KEY || 'QiRYWtWkX6RJjELTb1Uyv5o0Yd78IUwsC39iaCbn',
-      serverURL: process.env.SERVER_URL || 'https://mm-parse-test.herokuapp.com/parse',
-      appName: process.env.APP_NAME || 'Dev_Heroku',
+      appId: process.env.APP_ID || 'blah',
+      masterKey: process.env.MASTER_KEY || 'blah',
+      serverURL: process.env.SERVER_URL || 'blah',
+      appName: process.env.APP_NAME || 'blah',
     },
   ],
   
   "users": [
     {
-      "user":"uuu",
-      "pass":"ppp"
+      "user":process.env.ADM_USER,
+      "pass":process.env.ADM_PASSWORD
     }
   ]
 });

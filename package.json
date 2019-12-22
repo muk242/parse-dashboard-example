@@ -1,17 +1,17 @@
 {
   "name": "parse-dashboard-example",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An example Parse Dashboard server using the parse-dashboard module",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/biztek/parse-dashboard-example"
+    "url": "https://github.com/cherukumilli/parse-dashboard-example"
   },
   "license": "MIT",
   "dependencies": {
-    "express": "~4.11.x",
-    "kerberos": "~0.0.x",
-    "parse-dashboard": "~1.0.10"
+    "express": "^4.14.1",
+    "kerberos": "^0.0.x",
+    "parse-dashboard": "^1.0.24"
   },
   "scripts": {
     "start": "node index.js"
